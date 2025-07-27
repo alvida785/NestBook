@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Read Online - Book Nest</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Read books online with our digital library. Access thousands of books from anywhere, anytime." />
+    <link rel="stylesheet" href="Assets/Css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-brand">
+          <div class="logo">
+            <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="50" height="50" rx="8" fill="#2c3e50"/>
+              <path d="M12 15h26v20H12V15z" fill="white"/>
+              <path d="M15 18h20v2H15v-2zm0 4h20v2H15v-2zm0 4h15v2H15v-2zm0 4h18v2H15v-2z" fill="#2c3e50"/>
+              <circle cx="38" cy="12" r="6" fill="#e74c3c"/>
+              <path d="M35 12l2 2 4-4" stroke="white" stroke-width="1.5" fill="none"/>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <h1>Book Nest</h1>
+            <p>Read Books of Your Interest</p>
+          </div>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="genres.html">GENRES & MOODS</a></li>
+          <li><a href="top-picks.html">TOP PICKS</a></li>
+          <li><a href="Tips.html">TIPS</a></li>
+          <li><a href="read-online.html" aria-current="page">READ ONLINE</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <div class="header-content">
+          <div class="header-text">
+            <h2>Read Online</h2>
+            <p>Access our digital library from anywhere. Read thousands of books online with our user-friendly reading interface.</p>
+          </div>
+          <div class="header-image">
+            <img src="Assets/Image/pexels-photo-1741230.jpeg" alt="Digital reading on tablet" />
+          </div>
+        </div>
+      </section>
+
+      <section class="reading-interface">
+        <div class="reading-controls">
+          <h3>Reading Controls</h3>
+          <div class="control-panel">
+            <button class="control-btn" id="font-size-up">A+</button>
+            <button class="control-btn" id="font-size-down">A-</button>
+            <button class="control-btn" id="theme-toggle">🌙</button>
+            <button class="control-btn" id="fullscreen">⛶</button>
+          </div>
+        </div>
+        
+        <div class="book-reader">
+          <div class="reader-header">
+            <h4>Sample Book: The Great Adventure</h4>
+            <p>Chapter 1: The Beginning</p>
+          </div>
+          <div class="reading-content" id="reading-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+            
+            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+          </div>
+          <div class="reader-navigation">
+            <button class="nav-btn" id="prev-page">← Previous</button>
+            <span class="page-info">Page 1 of 50</span>
+            <button class="nav-btn" id="next-page">Next →</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="library-categories">
+        <h3>Browse Our Digital Library</h3>
+        <div class="category-grid">
+          <div class="category-card">
+            <div class="category-icon">📚</div>
+            <h4>Fiction</h4>
+            <p>Explore novels, short stories, and creative works</p>
+            <span class="book-count">2,500+ books</span>
+          </div>
+          
+          <div class="category-card">
+            <div class="category-icon">🎓</div>
+            <h4>Educational</h4>
+            <p>Textbooks, academic resources, and learning materials</p>
+            <span class="book-count">1,800+ books</span>
+          </div>
+          
+          <div class="category-card">
+            <div class="category-icon">👶</div>
+            <h4>Children's</h4>
+            <p>Picture books, early readers, and young adult fiction</p>
+            <span class="book-count">1,200+ books</span>
+          </div>
+          
+          <div class="category-card">
+            <div class="category-icon">🔬</div>
+            <h4>Science & Tech</h4>
+            <p>Scientific literature, technology guides, and research</p>
+            <span class="book-count">900+ books</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="reading-features">
+        <h3>Reading Features</h3>
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="feature-icon">📱</div>
+            <h4>Multi-Device Sync</h4>
+            <p>Continue reading from where you left off on any device</p>
+          </div>
+          
+          <div class="feature-item">
+            <div class="feature-icon">🎨</div>
+            <h4>Customizable Display</h4>
+            <p>Adjust font size, theme, and layout to your preference</p>
+          </div>
+          
+          <div class="feature-item">
+            <div class="feature-icon">🔍</div>
+            <h4>Search & Highlight</h4>
+            <p>Search within books and highlight important passages</p>
+          </div>
+          
+          <div class="feature-item">
+            <div class="feature-icon">📊</div>
+            <h4>Reading Progress</h4>
+            <p>Track your reading progress and set reading goals</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Book Nest</h4>
+          <p>Your gateway to discovering amazing books that match your mood and interests.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="genres.html">Genres & Moods</a></li>
+            <li><a href="top-picks.html">Top Picks</a></li>
+            <li><a href="Tips.html">Reading Tips</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Connect</h4>
+          <div class="social-links">
+            <span>📧 hello@booknest.com</span>
+            <span>📱 Follow us for daily book recommendations</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Book Nest. All rights reserved.</p>
+        <p class="footer-credit">Made with <span class="heart">♥</span> for book lovers</p>
+      </div>
+    </footer>
+  </body>
+</html> 
